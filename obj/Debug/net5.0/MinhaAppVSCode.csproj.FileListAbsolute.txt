@@ -37,3 +37,5 @@
 /Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/obj/Debug/net5.0/MinhaAppVSCode.pdb
 /Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/obj/Debug/net5.0/MinhaAppVSCode.genruntimeconfig.cache
 /Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/obj/Debug/net5.0/MinhaAppVSCode.csproj.CopyComplete
+/Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/bin/Debug/net5.0/appsettings.Staging.json
+/Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/bin/Debug/net5.0/AutoMapper.dll
