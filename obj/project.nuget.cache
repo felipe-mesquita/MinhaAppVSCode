@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "K70ivHV0nTNYRBGq8+Bv76q/wKd5RCbXzjJLsLdwR3htr7hhppjOMHqgBNlMkqImwS8xfzBw6rwzixHz092MNA==",
+  "success": true,
+  "projectFilePath": "/Volumes/LaCie/Documents/Travail/Projects/MinhaAppVSCode/MinhaAppVSCode.csproj",
+  "expectedPackageFiles": [
+    "/Users/felipecaldeira/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/felipecaldeira/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/felipecaldeira/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
