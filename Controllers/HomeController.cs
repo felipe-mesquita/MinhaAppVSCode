@@ -25,13 +25,32 @@ namespace MinhaAppVSCode.Controllers
         [Route("pagina-inicial/{id:int}/{categorias?}")]
         public IActionResult Index(int id, string categorias)
         {
-            return View();
+            var filme = new Filme()
+            {
+                Titulo = "Oi",
+                DataLancamento = DateTime.Now,
+                Genero = null,
+                Avaliacao = "10",
+                Valor = 2000
+            };
+
+            return RedirectToAction("Privacy", filme);
         }
 
         [Route("privacidade")]
         [Route("politica-privacidade")]
-        public IActionResult Privacy()
+        public IActionResult Privacy(Filme movie)
         {
+            if (ModelState.IsValid)
+            {
+
+            }
+
+            foreach (var colErreurs in ModelState.Values.SelectMany(p=>p.Errors))
+            {
+                Console.WriteLine(colErreurs.ErrorMessage);
+            }
+
             return View();
         }
 

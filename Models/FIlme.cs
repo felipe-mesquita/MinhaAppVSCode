@@ -6,6 +6,7 @@ namespace MinhaAppVSCode.Models
 {
     public class Filme
     {
+        [Key]
         public int Id { get; set; }
 
         [StringLength(60, MinimumLength = 3)]
@@ -13,7 +14,8 @@ namespace MinhaAppVSCode.Models
         public string Titulo { get; set; }
         
         [Display(Name = "Release Date")]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime, ErrorMessage="Data em formato incorreto.")]
+        [Required(ErrorMessage="O campo Data de Lancamento eh obrigatorio!")]
         public DateTime DataLancamento { get; set; }
         
         [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
